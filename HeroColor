@@ -1,0 +1,19 @@
+.heroColor {
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0.999;
+  color: transparent !important;
+  position:relative;
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://raw.githubusercontent.com/Th3r3aly3ti/th3r3aly3ti.github.io/master/images/MainGradient.jpg");
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  margin-top: 80px;
+}
