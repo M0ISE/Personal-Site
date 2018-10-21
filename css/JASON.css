@@ -42,7 +42,7 @@ body {
   transform: translateX(-50%);
 }
 
-p {
+h1 {
     background-repeat: no-repeat;
     background-image: url("https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/images/texture.jpg");
     background-size: 100%;
