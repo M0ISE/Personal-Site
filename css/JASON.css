@@ -38,8 +38,7 @@ body {
 
 .hero p{
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+
 }
 
 p {
@@ -48,6 +47,6 @@ p {
     background-size: 100%;
     -webkit-background-clip: text;
     font-family: Helvetica;
-    font-size: 60px;
+    font-size: 72px;
     font-weight: bold;
 }
