@@ -1,0 +1,53 @@
+
+
+#nav {
+ margin: 13px 0 0 0;
+}
+
+#nav ul li {
+ display: inline;
+ margin: 0 20px 0 0;
+ margin-bottom: 130px;
+
+}
+
+#nav a {
+ text-decoration: none;
+}
+
+#nav a:hover {
+ text-decoration: underline;
+}
+
+
+body {
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero {
+  opacity: 0.999;
+  color: transparent !important;
+  position:relative;
+  height: 180px;
+  width: 100%;
+  text-align: left;
+}
+
+.hero p{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p {
+    background-repeat: no-repeat;
+    background-image: url("https://s3-ap-southeast-2.amazonaws.com/www.sophgdn.com/images/texture.jpg");
+    background-size: 100%;
+    -webkit-background-clip: text;
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: bold;
+}
