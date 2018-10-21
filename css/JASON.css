@@ -33,11 +33,10 @@ body {
   position:relative;
   height: 180px;
   width: 100%;
-  text-align: left;
+  
 }
 
 .hero p{
-  position: absolute;
 
 }
 
