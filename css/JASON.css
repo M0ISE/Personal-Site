@@ -19,33 +19,38 @@
  text-decoration: underline;
 }
 
-
-body {
+.heroColor {
   font-synthesis: none;
   -moz-font-feature-settings: 'kern';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.hero {
   opacity: 0.999;
   color: transparent !important;
   position:relative;
   height: 180px;
   width: 100%;
-  
-}
+  background-repeat: no-repeat;
+  background-image: url("https://raw.githubusercontent.com/Th3r3aly3ti/th3r3aly3ti.github.io/master/images/MainGradient.jpg");
+  background-size: 100%;
+  -webkit-background-clip: text;
+  font-family: Helvetica;
+  font-size: 72px;
+  font-weight: bold;
 
-.hero p{
-
-}
-
-p {
+  .herogray {
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    opacity: 0.999;
+    color: transparent !important;
+    position:relative;
+    height: 180px;
+    width: 100%;
     background-repeat: no-repeat;
-    background-image: url("https://raw.githubusercontent.com/Th3r3aly3ti/th3r3aly3ti.github.io/master/images/MainGradient.jpg");
+    background-image: url("https://raw.githubusercontent.com/Th3r3aly3ti/th3r3aly3ti.github.io/master/images/GrayGradient.jpg");
     background-size: 100%;
     -webkit-background-clip: text;
     font-family: Helvetica;
     font-size: 72px;
     font-weight: bold;
-}
