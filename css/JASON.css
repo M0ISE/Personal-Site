@@ -1,13 +1,13 @@
 
 
 #nav {
- margin: 13px 0 0 0;
+ margin: 0 0 50px 0;
 }
 
 #nav ul li {
  display: inline;
  margin: 0 20px 0 0;
- margin-bottom: 130px;
+ margin-bottom: 100px;
 
 }
 
@@ -33,11 +33,13 @@
   background-image: url("https://raw.githubusercontent.com/Th3r3aly3ti/th3r3aly3ti.github.io/master/images/MainGradient.jpg");
   background-size: 100%;
   -webkit-background-clip: text;
-  font-family: Helvetica;
+  font-family: 'Montserrat', sans-serif;
   font-size: 72px;
-  font-weight: bold;
+  font-weight: 400;
+  margin-top: 80px;
+}
 
-  .herogray {
+  .heroGray {
     font-synthesis: none;
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
@@ -51,6 +53,14 @@
     background-image: url("https://raw.githubusercontent.com/Th3r3aly3ti/th3r3aly3ti.github.io/master/images/GrayGradient.jpg");
     background-size: 100%;
     -webkit-background-clip: text;
-    font-family: Helvetica;
-    font-size: 72px;
-    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .Boldering {
+    color: rgb(192,192,192);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+  }
