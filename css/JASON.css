@@ -60,7 +60,7 @@
   }
 
   .Boldering {
-    color: #12c998;
+    color: ;
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
@@ -88,8 +88,8 @@ background-color: #16ffbd;
 
 
   .floatBox:hover {
-  box-shadow: 5px 5px rgb(226,115,47);
-  background: white;
+  box-shadow: 5px 5px #439f76;
+  background: #12c998;
   -webkit-transform: scale(1.10);
       -ms-transform: scale(1.10);
           transform: scale(1.10);
@@ -99,9 +99,9 @@ background-color: #16ffbd;
   /* STYLES */
 
 
-background: #EFEEEE;
+background: #16ffbd;
 
-box-shadow: -5px -5px white;
+box-shadow: -5px -5px #12c998;
 border-radius: 10px ;
 
   /* Tech */
