@@ -400,6 +400,14 @@ html {
   color: white;
 }
 
+.PppNH {
+  /* Process pop Paragraph */
+  color: rgb(128, 128, 128);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .PpGC:hover {
   /* Process pop Gradient Color */
   background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
