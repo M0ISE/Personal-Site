@@ -1,3 +1,54 @@
+
+
+/*
+animation-name: EXPERIENCELoad;
+animation-delay: 500ms;
+animation-duration: 500ms;
+animation-timing-function: ease-in-out;
+animation-fill-mode: none ;
+
+@keyframes EXPERIENCELoad {
+  0% {
+    background-image: transparent;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  25% {
+    background-color: blue;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    background-image: green;
+    box-shadow: 1px 1px 8px -6px black;
+    border-radius: 10px;
+    -webkit-text-fill-color: white;
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
+    -webkit-animation-timing-function
+  }
+  75% {
+    background-color: red;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    background-image: transparent;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+*/
+
+
+
 #nav {
   margin: 80px 0 50px 0;
 }
@@ -26,6 +77,12 @@
   width: 100%;
   background-repeat: no-repeat;
   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  background-image: linear-gradient(45deg, #92fe9d 0%, #00c9ff 100%);
+  background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+  background-image: linear-gradient(135deg, #6B73FF 10%, #000DFF 100%);
+  background-image: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+  background: linear-gradient(-45deg, rgb(232, 233, 222), rgb(106, 188, 176));
+  background: ;
   background-size: cover;
   -webkit-background-clip: text;
   font-family: 'Nunito', sans-serif;
@@ -71,6 +128,7 @@ html {
 .HOME:hover {
   /* Style */
   background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
+  background-image: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);
   box-shadow: 1px 1px 8px -6px black;
   border-radius: 10px;
   /* webkit */
@@ -86,6 +144,7 @@ html {
   font-size: 32px;
   font-weight: 700;
   background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
+  background-image: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);
   box-shadow: 1px 1px 8px -6px black;
   border-radius: 10px;
   /* Animations / webkit */
@@ -122,6 +181,7 @@ html {
   /* Backgrounds */
   box-shadow: -1px -1px 8px -6px transparent;
 }
+
 
 .EXPERIENCE:hover {
   /* Style */
@@ -181,7 +241,6 @@ html {
 .PROCESS:hover {
   /* Style */
   background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
-  box-shadow: 1px 1px 8px -6px black;
   border-radius: 10px;
   /* webkit */
   -webkit-text-fill-color: white;
@@ -195,7 +254,7 @@ html {
   font-family: 'Nunito', sans-serif;
   font-size: 32px;
   font-weight: 700;
-background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
+  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
   box-shadow: 1px 1px 8px -6px black;
   border-radius: 10px;
   /* Animations / webkit */
@@ -235,7 +294,7 @@ background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
 
 .CONTACT:hover {
   /* Style */
-  background-image: linear-gradient(135deg, #81FBB8 10%, #28C76F 100%);
+  background-image: linear-gradient(135deg, #92fe9d 0%, #00c9ff 100%);
   box-shadow: 1px 1px 8px -6px black;
   border-radius: 10px;
   /* webkit */
@@ -250,7 +309,7 @@ background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
   font-family: 'Nunito', sans-serif;
   font-size: 32px;
   font-weight: 700;
-    background-image: linear-gradient(135deg, #81FBB8 10%, #28C76F 100%);
+  background-image: linear-gradient(135deg, #92fe9d 0%, #00c9ff 100%);
   box-shadow: 1px 1px 8px -6px black;
   border-radius: 10px;
   /* Animations / webkit */
@@ -320,7 +379,6 @@ background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
   transform: scale(1.10);
 }
 
-
 .PpH {
   color: rgb(128, 128, 128);
   font-family: 'Nunito', sans-serif;
@@ -329,25 +387,26 @@ background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
   font-style: italic;
 }
 
-.Ppp {/* Process pop Paragraph */
+.Ppp {
+  /* Process pop Paragraph */
   color: rgb(128, 128, 128);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
 
-
-.Ppp:hover {/* Process pop Paragraph */
+.Ppp:hover {
+  /* Process pop Paragraph */
   color: white;
-
 }
 
-.PpGC:hover {/* Process pop Gradient Color */
-  background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);
+.PpGC:hover {
+  /* Process pop Gradient Color */
+  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
 }
 
 .ProcessSubHeading {
-font-synthesis: none;
+  font-synthesis: none;
   -moz-font-feature-settings: 'kern';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -371,9 +430,11 @@ font-synthesis: none;
   font-weight: 500;
 }
 
-
 .Copy {
+  color: rgb(200, 200, 200);
+}
 
-color: rgb(200,200,200);
-
+.RoundShadow {
+  box-shadow: 4px 4px 16px -8px black;
+  border-radius: 20px;
 }
