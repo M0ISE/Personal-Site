@@ -1,5 +1,3 @@
-
-
 /*
 animation-name: EXPERIENCELoad;
 animation-delay: 500ms;
@@ -46,9 +44,6 @@ animation-fill-mode: none ;
   }
 }
 */
-
-
-
 #nav {
   margin: 80px 0 50px 0;
 }
@@ -66,6 +61,7 @@ animation-fill-mode: none ;
 #nav a:hover {}
 
 .heroColor {
+  text-align: center;
   font-synthesis: none;
   -moz-font-feature-settings: 'kern';
   -webkit-font-smoothing: antialiased;
@@ -76,18 +72,14 @@ animation-fill-mode: none ;
   height: auto;
   width: 100%;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-  background-image: linear-gradient(45deg, #92fe9d 0%, #00c9ff 100%);
-  background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
-  background-image: linear-gradient(135deg, #6B73FF 10%, #000DFF 100%);
-  background-image: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
-  background: linear-gradient(-45deg, rgb(232, 233, 222), rgb(106, 188, 176));
+  background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
   background: ;
   background-size: cover;
   -webkit-background-clip: text;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
   font-size: 72px;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 80px;
 }
 
@@ -105,67 +97,11 @@ html {
 }
 
 /* NAV BAR STYLES */
-.HOME {
-  /* Style */
-  color: rgb(128, 128, 128);
-  font-family: 'Nunito', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  /* Animations */
-  transition: all ease .3s;
-  /* webkit */
-  -webkit-transition: all ease .3s;
-  /* Possition and Margins */
-  position: relative;
-  height: auto;
-  width: auto;
-  padding: 8px 10px;
-  line-height: 64px;
-  /* Backgrounds */
-  box-shadow: -1px -1px 8px -6px transparent;
-}
-
-.HOME:hover {
-  /* Style */
-  background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
-  background-image: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);
-  box-shadow: 1px 1px 8px -6px black;
-  border-radius: 10px;
-  /* webkit */
-  -webkit-text-fill-color: white;
-  -webkit-transform: scale(1.10);
-  -ms-transform: scale(1.10);
-  transform: scale(1.10);
-}
-
-.HOMEthere {
-  /* Style */
-  font-family: 'Nunito', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
-  background-image: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);
-  box-shadow: 1px 1px 8px -6px black;
-  border-radius: 10px;
-  /* Animations / webkit */
-  transition: all ease .3s;
-  -webkit-text-fill-color: white;
-  -webkit-transform: scale(1.10);
-  -ms-transform: scale(1.10);
-  transform: scale(1.10);
-  -webkit-transition: all ease .3s;
-  /* Possition and Margins */
-  position: relative;
-  height: auto;
-  width: auto;
-  padding: 8px 10px;
-  line-height: 64px;
-}
-
 .EXPERIENCE {
   /* Style */
-  color: rgb(128, 128, 128);
-  font-family: 'Nunito', sans-serif;
+  color: rgb(100, 100, 100);
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
   font-size: 32px;
   font-weight: 700;
   /* Animations */
@@ -176,52 +112,28 @@ html {
   position: relative;
   height: auto;
   width: auto;
-  padding: 8px 10px;
+  padding: 0px 8px;
   line-height: 64px;
   /* Backgrounds */
   box-shadow: -1px -1px 8px -6px transparent;
 }
-
 
 .EXPERIENCE:hover {
   /* Style */
-  background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
+  background-color: #21e8a7;
   box-shadow: 1px 1px 8px -6px black;
-  border-radius: 10px;
   /* webkit */
   -webkit-text-fill-color: white;
   -webkit-transform: scale(1.10);
   -ms-transform: scale(1.10);
   transform: scale(1.10);
-}
-
-.EXPERIENCEthere {
-  /* Style */
-  font-family: 'Nunito', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
-  box-shadow: 1px 1px 8px -6px black;
-  border-radius: 10px;
-  /* Animations / webkit */
-  transition: all ease .3s;
-  -webkit-text-fill-color: white;
-  -webkit-transform: scale(1.10);
-  -ms-transform: scale(1.10);
-  transform: scale(1.10);
-  -webkit-transition: all ease .3s;
-  /* Possition and Margins */
-  position: relative;
-  height: auto;
-  width: auto;
-  padding: 8px 10px;
-  line-height: 64px;
 }
 
 .PROCESS {
   /* Style */
-  color: rgb(128, 128, 128);
-  font-family: 'Nunito', sans-serif;
+  color: rgb(100, 100, 100);
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
   font-size: 32px;
   font-weight: 700;
   /* Animations */
@@ -232,7 +144,7 @@ html {
   position: relative;
   height: auto;
   width: auto;
-  padding: 8px 10px;
+  padding: 0px 8px;
   line-height: 64px;
   /* Backgrounds */
   box-shadow: -1px -1px 8px -6px transparent;
@@ -240,8 +152,8 @@ html {
 
 .PROCESS:hover {
   /* Style */
-  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
-  border-radius: 10px;
+  background-color: #17d3be;
+  box-shadow: 1px 1px 8px -6px black;
   /* webkit */
   -webkit-text-fill-color: white;
   -webkit-transform: scale(1.10);
@@ -249,33 +161,11 @@ html {
   transform: scale(1.10);
 }
 
-.PROCESSthere {
-  /* Style */
-  font-family: 'Nunito', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  background-image: linear-gradient(135deg, #FEB692 10%, #EA5455 100%);
-  box-shadow: 1px 1px 8px -6px black;
-  border-radius: 10px;
-  /* Animations / webkit */
-  transition: all ease .3s;
-  -webkit-text-fill-color: white;
-  -webkit-transform: scale(1.10);
-  -ms-transform: scale(1.10);
-  transform: scale(1.10);
-  -webkit-transition: all ease .3s;
-  /* Possition and Margins */
-  position: relative;
-  height: auto;
-  width: auto;
-  padding: 8px 10px;
-  line-height: 64px;
-}
-
 .CONTACT {
   /* Style */
-  color: rgb(128, 128, 128);
-  font-family: 'Nunito', sans-serif;
+  color: rgb(100, 100, 100);
+  font-family: 'Archivo', sans-serif;
+  font-style: italic;
   font-size: 32px;
   font-weight: 700;
   /* Animations */
@@ -286,7 +176,7 @@ html {
   position: relative;
   height: auto;
   width: auto;
-  padding: 8px 10px;
+  padding: 0px 8px;
   line-height: 64px;
   /* Backgrounds */
   box-shadow: -1px -1px 8px -6px transparent;
@@ -294,37 +184,13 @@ html {
 
 .CONTACT:hover {
   /* Style */
-  background-image: linear-gradient(135deg, #92fe9d 0%, #00c9ff 100%);
+  background-color: #16c9ca;
   box-shadow: 1px 1px 8px -6px black;
-  border-radius: 10px;
   /* webkit */
   -webkit-text-fill-color: white;
   -webkit-transform: scale(1.10);
   -ms-transform: scale(1.10);
   transform: scale(1.10);
-}
-
-.CONTACTthere {
-  /* Style */
-  font-family: 'Nunito', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  background-image: linear-gradient(135deg, #92fe9d 0%, #00c9ff 100%);
-  box-shadow: 1px 1px 8px -6px black;
-  border-radius: 10px;
-  /* Animations / webkit */
-  transition: all ease .3s;
-  -webkit-text-fill-color: white;
-  -webkit-transform: scale(1.10);
-  -ms-transform: scale(1.10);
-  transform: scale(1.10);
-  -webkit-transition: all ease .3s;
-  /* Possition and Margins */
-  position: relative;
-  height: auto;
-  width: auto;
-  padding: 8px 10px;
-  line-height: 64px;
 }
 
 .JASON {
@@ -450,4 +316,37 @@ html {
 .SlightRoundShadow {
   box-shadow: 4px 4px 8px -8px black;
   border-radius: 10px;
+}
+
+.ExpSubHeading {
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0.999;
+  color: transparent !important;
+  position: relative;
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+  background-blend-mode: normal, lighten, soft-light;
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-family: 'Nunito', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.ExpBody {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Logo {
+  vertical-align: middle;
+  display:inline;
+  position: sticky;
+  max-height: 100px;
 }
