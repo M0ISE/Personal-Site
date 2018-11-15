@@ -194,7 +194,7 @@ html {
 
 .JASON {
   /* Style */
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 32px;
   font-weight: 700;
   /* Animations */
@@ -246,9 +246,9 @@ html {
 
 .PpH {
   color: rgb(128, 128, 128);
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 700;
   font-style: italic;
 }
 
@@ -331,9 +331,9 @@ html {
   background-blend-mode: normal, lighten, soft-light;
   background-size: cover;
   -webkit-background-clip: text;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 42px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .ExpBody {
