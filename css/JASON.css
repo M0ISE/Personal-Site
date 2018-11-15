@@ -45,6 +45,7 @@ animation-fill-mode: none ;
 }
 */
 #nav {
+  vertical-align: middle;
   margin: 80px 0 50px 0;
 }
 
