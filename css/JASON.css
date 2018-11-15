@@ -347,6 +347,5 @@ html {
 .Logo {
   vertical-align: middle;
   display:inline;
-  position: sticky;
   max-height: 100px;
 }
