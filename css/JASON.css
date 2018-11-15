@@ -45,14 +45,12 @@ animation-fill-mode: none ;
 }
 */
 #nav {
-  vertical-align: middle;
-  margin: 80px 0 50px 0;
+  text-align: center;
 }
 
 #nav ul li {
-  display: inline;
-  margin: 0 20px 0 0;
-  margin-bottom: 100px;
+  display: inline-block;
+  margin: 0 25px 0 25px;
 }
 
 #nav a {
@@ -346,7 +344,7 @@ html {
 }
 
 .Logo {
-  vertical-align: middle;
-  display:inline;
-  max-height: 100px;
+  display: inline;
+  max-height: 72px;
+  margin: 0 0 50px 0;
 }
