@@ -354,7 +354,7 @@ html {
   transition: all ease .3s;
   /* webkit */
   -webkit-transition: all ease .3s;
-    -webkit-text-fill-color: rgb(128, 128, 128);
+  -webkit-text-fill-color: rgb(128, 128, 128);
   /* Possition and Margins */
   position: relative;
   height: auto;
@@ -384,22 +384,17 @@ html {
   font-size: 32px;
   font-weight: 700;
   font-style: italic;
-  text-align: center;
+  text-align: justify;
 }
 
 .WorkThumParagraph {
   text-decoration: none;
   /* Process pop Paragraph */
-    -webkit-text-fill-color: rgb(128, 128, 128);
+  -webkit-text-fill-color: rgb(128, 128, 128);
   color: rgb(128, 128, 128);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
-}
-
-.WorkThumParagraph:hover {
-  /* Process pop Paragraph */
-  color: white;
 }
 
 .WorkThumbHack:hover {
