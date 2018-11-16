@@ -317,6 +317,11 @@ html {
   border-radius: 10px;
 }
 
+.Shadow {
+  box-shadow: 1px 1px 32px -40px transparent;
+
+}
+
 .ExpSubHeading {
   text-align: center;
   font-synthesis: none;
@@ -362,7 +367,8 @@ background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  text-align: center;
+  text-align: justify;
+
 }
 
 .ExpBodyLeft {
@@ -448,4 +454,9 @@ background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
   background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
   background-blend-mode: screen;
   ;
+}
+
+
+.Center {
+display: inline-block;
 }
