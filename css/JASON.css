@@ -92,6 +92,8 @@ html {
 
 .NoDeco {
   text-decoration: none;
+  -webkit-text-fill-color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
 }
 
 /* NAV BAR STYLES */
