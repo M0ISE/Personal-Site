@@ -83,8 +83,8 @@ animation-fill-mode: none ;
 }
 
 body {
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
-  background-blend-mode: screen;
+/*  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+  background-blend-mode: screen; */
 }
 
 html {
@@ -362,6 +362,31 @@ background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
+  text-align: center;
+}
+
+.ExpBodyLeft {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.ExpBodyLeftBig {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.ExpBodySmall {
+  color: rgb(90, 90, 90);
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .Logo {
