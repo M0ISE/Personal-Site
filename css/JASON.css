@@ -50,7 +50,6 @@ animation-fill-mode: none ;
 
 #nav ul li {
   display: inline-block;
-  margin: 0 25px 0 25px;
 }
 
 #nav a {
@@ -83,7 +82,7 @@ animation-fill-mode: none ;
 }
 
 body {
-/*  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+  /*  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
   background-blend-mode: screen; */
 }
 
@@ -319,7 +318,6 @@ html {
 
 .Shadow {
   box-shadow: 1px 1px 32px -40px transparent;
-
 }
 
 .ExpSubHeading {
@@ -333,13 +331,12 @@ html {
   position: relative;
   height: auto;
   width: auto;
-background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
   background-size: cover;
   -webkit-background-clip: text;
   font-family: 'Archivo', sans-serif;
   font-size: 42px;
   font-weight: 700;
-
 }
 
 .ExpSubHeadingBIG {
@@ -353,13 +350,13 @@ background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
   position: relative;
   height: auto;
   width: auto;
-background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+  background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
   background-size: cover;
   -webkit-background-clip: text;
   font-family: 'Archivo', sans-serif;
   font-size: 72px;
   font-weight: 700;
-    font-style: italic;
+  font-style: italic;
 }
 
 .ExpBody {
@@ -368,7 +365,6 @@ background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
   font-size: 16px;
   font-weight: 500;
   text-align: justify;
-
 }
 
 .ExpBodyLeft {
@@ -449,14 +445,18 @@ background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
   font-weight: 300;
 }
 
-.WorkThumbHack:hover {
+.WorkThumbHack {
   /* Process pop Gradient Color */
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
-  background-blend-mode: screen;
+  box-shadow: 1px 1px 8px -8px transparent;
   ;
 }
 
+.WorkThumbHack:hover {
+  /* Process pop Gradient Color */
+  box-shadow: 1px 1px 12px -8px black;
+  ;
+}
 
 .Center {
-display: inline-block;
+  display: inline-block;
 }
