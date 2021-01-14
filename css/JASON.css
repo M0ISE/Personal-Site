@@ -203,7 +203,7 @@ html {
   /* webkit */
   -webkit-transition: all ease .3s;
   /* Possition and Margins */
-  position: relative;
+  position: center;
   height: auto;
   width: auto;
   padding: 8px 10px;
