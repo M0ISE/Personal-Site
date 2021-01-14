@@ -13,6 +13,6 @@ window.onload = function() {
   var theDate = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
 
-  document.getElementById('dayCount').innerText = "Currently Out of Order. Jason is working on this right now. It has been " + theDate + " days since he started.";
+  document.getElementById('dayCount').innerText = "Jason is working on this right now. It has been " + theDate + " days since he started.";
 
 };
